@@ -1,0 +1,58 @@
+C:\Users\gayan>git --version
+git version 2.38.1.windows.1
+
+C:\Users\gayan>git config --global user.name gyan
+
+C:\Users\gayan>git config --global user.email "gayanendra.shakya@gmail.com"
+
+C:\Users\gayan>git config --global list
+error: key does not contain a section: list
+
+C:\Users\gayan>git config --global --list
+user.name=gyan
+user.email=gayanendra.shakya@gmail.com
+
+git remote add origin <URL>
+
+git remote remove origin
+
+git remote -v
+
+git remote
+
+PAT Tocken: htskjfgty7zc6o7ddf2thjmszddepp755663wcadneipezclep4a
+
+
+C:\Users\gayan>
+
+Jenkins details
+http://localhost:8080/
+user name: gyansang, anay(Support), vinay(Devloper)
+Pwd: Anay@2022
+
+Apache Details:
+
+localhost:8090
+admin
+admin
+
+Admin>Devloper >Support > Test
+
+
+
+
+Works on Application releases using Azure CICD pipelines.
+Maintaining source code using Git.
+Building code using CI pipeline and Maven and deploying to Prod, Test, and Dev environments.
+Creating Azure Infra using Terraform and Ansible.
+Having good knowledge to work on Oracle DB.
+Works on Jenkins release for on-prem Applications.
+Having good experience in shell script troubleshooting.
+Works on various App servers Apache, Tomcat, and Weblogic.
+Integrated Azure Key Vault and SSL Certs for app security.
+Having good knowledge of the Application migration from on-prem to Azure.
+Managing clusters using Docker & Kubernates.
+
+Provide training on newly created application/website for Labour Department to UP govt employees.
+Troubleshooting the software/hardware-related queries and provide end-to-end solution.
+Used to update/correct mismatch scheme/labour details in DB server.
