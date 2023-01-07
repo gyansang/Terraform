@@ -1,3 +1,5 @@
+#To secure Terraform state file
+
 terraform {
     backend "azurerm" {
         resource_group_name  = "tfstate"
