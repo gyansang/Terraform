@@ -1,7 +1,3 @@
-
-/*variable "prefix" {
-  default = "tfvmex"
-}*/
 terraform {
   required_providers {
     azurerm = {
@@ -27,12 +23,16 @@ variable "prefix" {
   default = "Node2"
 }
 
+locals{
+  tag = "Prod"
+}
+
 resource "azurerm_resource_group" "rg2" {
   name     = "${var.prefix}-RG"
   location = "Central India"
 
   tags = {
-    Owner = "Gyan"
+    environment = local.tag
   }
 }
 
@@ -69,7 +69,7 @@ resource "azurerm_public_ip" "node2" {
   allocation_method   = "Dynamic"
 
   tags = {
-    environment = "Test"
+    environment = local.tag
   }
 }
 
@@ -107,7 +107,7 @@ resource "azurerm_virtual_machine" "vm2" {
     disable_password_authentication = false
   }
   tags = {
-    environment = "Test"
+    environment = local.tag
   }
 }
 
